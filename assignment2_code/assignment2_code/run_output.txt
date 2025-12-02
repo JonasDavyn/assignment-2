@@ -1,0 +1,212 @@
+
+ Welcome to EventTicket340:
+Username: Email: Password: Short bio: Profile picture path: 
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: Event type? (1 = Virtual, 2 = Venue): Name: Description: Rating (0-5): Stream link: Audience: Optional: enter k (position from end) or -1 to skip: Event added: VirtualBootcamp
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: Event type? (1 = Virtual, 2 = Venue): Name: Description: Rating (0-5): Venue: Date/Time: Capacity: Optional: enter k (position from end) or -1 to skip: Event added: LocalGigs
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: Event type? (1 = Virtual, 2 = Venue): Name: Description: Rating (0-5): Stream link: Audience: Optional: enter k (position from end) or -1 to skip: Event added: Webinar
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: 
+Event: LocalGigs
+Description: Indie bands
+Rating: 4.2
+Tickets Sold: 0
+Venue: Club X
+Date/Time: 2026-04-01 21:00
+Capacity left: 1
+
+Event: Webinar
+Description: Intro to web
+Rating: 3.5
+Tickets Sold: 0
+Stream Link: https://webinar
+Audience: developers
+
+Event: VirtualBootcamp
+Description: Online coding bootcamp
+Rating: 4
+Tickets Sold: 0
+Stream Link: https://boot
+Audience: learners
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: Index k (0-based): 
+Event: Webinar
+Description: Intro to web
+Rating: 3.5
+Tickets Sold: 0
+Stream Link: https://webinar
+Audience: developers
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: Index to sell ticket (0-based): Virtual ticket sold! Code: ACCESS1
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: Index to sell ticket (0-based): Venue ticket sold! Remaining: 0
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: Index to sell ticket (0-based): Event sold out!
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: Index to modify (0-based): New name: New description: Event modified.
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: Index to delete (0-based): Event deleted.
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: 
+Event: LocalGigs
+Description: Indie bands
+Rating: 4.2
+Tickets Sold: 1
+Venue: Club X
+Date/Time: 2026-04-01 21:00
+Capacity left: 0
+
+Event: Bootcamp Pro
+Description: Advanced coding
+Rating: 4
+Tickets Sold: 0
+Stream Link: https://boot
+Audience: learners
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: New password: Password updated.
+
+ Hi Jonas, Are you ready!
+ what would you like to do:
+1. Display Profile
+2. Modify Password
+3. Create Event
+4. Display All Events
+5. Display Kth Event
+6. Modify Event
+7. Sell Tickets
+8. Delete Event
+0. Logout
+Choice: Logging you out.

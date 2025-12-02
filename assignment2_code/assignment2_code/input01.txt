@@ -1,0 +1,50 @@
+Jonas
+jonas@mail.com
+pass123
+Organizer bio
+avatar.jpg
+3
+1
+VirtualBootcamp
+Online coding bootcamp
+4
+https://boot
+learners
+-1
+3
+2
+LocalGigs
+Indie bands
+4.2
+Club X
+2026-04-01 21:00
+1
+-1
+3
+1
+Webinar
+Intro to web
+3.5
+https://webinar
+developers
+1
+4
+5
+1
+7
+1
+7
+0
+7
+0
+6
+2
+Bootcamp Pro
+Advanced coding
+8
+1
+4
+2
+newpass
+1
+0

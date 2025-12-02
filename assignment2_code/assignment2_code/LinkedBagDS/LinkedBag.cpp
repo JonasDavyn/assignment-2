@@ -10,9 +10,64 @@
 
 
 // Assignment 2 functions -------------------------------------------
-// TO DO: implement the two functions here
+// Implementation of reverseAppendK and findKthItem
 
 // ------------------------------------------------------------------
+// This function will insert the new element at the kth position from the end.
+// If k is invalid (0 or greater than length), it will be inserted at the beginning.
+template <class ItemType>
+bool LinkedBag<ItemType>::reverseAppendK(const ItemType &newEntry, const int &k)
+{
+	int length = itemCount;
+
+	if (k <= 0 || k > length)
+	{
+		return add(newEntry);
+	}
+
+	// Position to insert = length - k
+	int position = length - k;
+
+	// If it needs to be prepended
+	if (position == 0)
+	{
+		return add(newEntry);
+	}
+
+	// it will find the node before the insertion point
+	Node<ItemType> *prev = headPtr;
+	for (int i = 1; i < position; i++)
+	{
+		prev = prev->getNext();
+	}
+
+	// Created new node and insert it
+	Node<ItemType> *newNode = new Node<ItemType>(newEntry);
+	newNode->setNext(prev->getNext());
+	prev->setNext(newNode);
+
+	itemCount++;
+	return true;
+}
+
+template <class ItemType>
+Node<ItemType> *LinkedBag<ItemType>::findKthItem(const int &indexK) const
+{
+	if (indexK < 0 || indexK >= itemCount)
+	{
+		return nullptr;
+	}
+
+	Node<ItemType> *current = headPtr;
+
+	// move forward k times
+	for (int i = 0; i < indexK; i++)
+	{
+		current = current->getNext();
+	}
+
+	return current;
+}
 
 template<class ItemType>
 LinkedBag<ItemType>::LinkedBag() : headPtr(nullptr), itemCount(0){}  // end default constructor

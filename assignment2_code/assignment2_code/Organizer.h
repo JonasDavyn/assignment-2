@@ -1,9 +1,40 @@
-// TO DO: #include all the standard libraries and your own libraries here
+#pragma once
+#include <string>
+#include "LinkedBagDS/LinkedBag.h"
+#include "Event.h"
+#include <vector>
 
-// To DO: define the class Organizer with the necessary functions and data fields
+class Organizer
+{
+private: // Basic information about the organizer
+    std::string username;
+    std::string email;
+    std::string password;
+    std::string bio;
+    std::string profilePicture;
 
-// This is a function that allows you to compare two organizers based on their username and email address.  
-// You may directly include it in your class definition. 
-// You don't need to modify it but will have to put it inside your class. 
-// Operator == overloading function prototype:
-bool operator==(const Organizer& otherOrganizer) const; 
+    LinkedBag<Event *> events; // A LinkedBag that stores all events (both Virtual and Venue)
+
+public:
+    // Default constructor: creates an empty Organizer
+    Organizer();
+
+    // Constructor with parameters: creates Organizer with given details
+    Organizer(const std::string &u, const std::string &e, const std::string &p,
+              const std::string &b, const std::string &pic);
+
+    const std::string &getUsername() const; // Get the username of this organizer
+    void setPassword(const std::string &p); // Change the password
+    void displayProfile() const;            // Show organizer profile
+    void addEventAtKFromEnd(Event *e, int k); // Add an event at position k from the end of the list
+
+    bool operator==(const Organizer &otherOrganizer) const;
+
+    void addEvent(Event *e); // Add a new event
+    void displayAllEvents() const;
+    void displayEventK(int k) const; // Display the event at index k
+    void modifyEvent(int k, const std::string &newName, const std::string &newDesc);
+    void sellTicket(int k); // Sell a ticket for event at index k
+    void deleteEvent(int k); // Delete the event at index k
+};
+
